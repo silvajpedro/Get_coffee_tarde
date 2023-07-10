@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 13vh;
+    border-bottom: solid 1px rgb(163, 160, 160);
+}
+figure{
+    width: 14vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+h2{
+    font-size: 26px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 20px;
+    width:25vw ;
+}
+/* 
+media queries
+
+@media -> ele é uma regra de estilo do CSS, que atraves
+dessa regra de estilo, conseguimos determinar um estilo
+para diversos tipos de dispositivos (smart tvs, celulares, tablets, ipads, smartwatches...)
+
+sintaxe (forma de escrita)
+
+@media screen and (max-width:500px){
+    max-width -> aplique esse estilo
+    em uma tela com largura menor que 500px
+}
+@media screen and (min-width:1300px){
+    min-width -> aplique esse estilo em
+    uma tela com largura maior que 1300px
+}
+
+*/
+@media screen and (max-width:500px){
+    body{
+        background-color: tomato;
+    }
+    
+}
