@@ -37,18 +37,37 @@ para diversos tipos de dispositivos (smart tvs, celulares, tablets, ipads, smart
 sintaxe (forma de escrita)
 
 @media screen and (max-width:500px){
+
+    background-color:tomato;
+
     max-width -> aplique esse estilo
     em uma tela com largura menor que 500px
 }
-@media screen and (min-width:1300px){
+
+@media screen and (min-width:3000px){
+
+    background-color:green;
+
     min-width -> aplique esse estilo em
     uma tela com largura maior que 1300px
 }
 
 */
+
+
 @media screen and (max-width:500px){
-    body{
-        background-color: tomato;
+  
+    header{
+        flex-direction: column;
+        align-items: center;
+        height: 24vh;
     }
-    
+    ul{
+        justify-content: space-between;
+        
+        width: 46vw;
+    }
+    main img{
+       width: 5vw;
+    }
 }
